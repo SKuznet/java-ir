@@ -1,9 +1,11 @@
-package com.education.l4;
+package com.education.l5;
 
-import java.util.function.Predicate;
-
-public class AbstractCat {
+public class Cat {
     private String name;
+
+    public Cat(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
